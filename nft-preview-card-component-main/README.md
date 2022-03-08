@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://bacayo.github.io/html-css-js/)
+- Live Site URL: [Add live site URL here](https://htmlpreview.github.io/?https://github.com/bacayo/html-css-js/blob/master/nft-preview-card-component-main/index.html)
 
 ## My process
 
