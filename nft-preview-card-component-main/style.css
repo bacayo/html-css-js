@@ -1,0 +1,187 @@
+:root {
+    --white: hsl(0, 0%, 100%);
+    /*line*/
+    --line_blue: hsl(215, 32%, 27%);
+    /*card bg*/
+    --bg_blue: hsl(216, 50%, 16%);
+    /*main bg*/
+    --main_blue: hsl(217, 54%, 11%);
+
+    --soft_blue: hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+
+}
+
+html {
+    height: 100vh;
+    font-family: 'Outfit', sans-serif;
+    background-color: var(--main_blue);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    height: 600px;
+    width: 350px;
+    background-color: var(--bg_blue);
+    border-radius: 15px;
+    position: relative;
+    box-shadow: 0 0 80px hsl(217, 81%, 6%);
+
+}
+
+.head-img {
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: 25px;
+
+}
+
+.cyan-bg {
+    background: var(--cyan);
+    width: 295px;
+    height: 295px;
+    border-radius: 15px;
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+}
+
+.head-img:hover {
+    cursor: pointer;
+    background-color: var(--cyan);
+    opacity: 0.3;
+
+}
+
+.container:hover .view-icon {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.view-icon {
+    width: 45px;
+    height: 40px;
+    margin: 0 auto;
+    position: relative;
+    bottom: 145px;
+    left: 155px;
+    opacity: 0;
+}
+
+h1 {
+    position: relative;
+    color: var(--white);
+    text-align: left;
+    top: 0px;
+    left: 25px;
+    font-size: 25px;
+}
+
+h1:hover {
+    cursor: pointer;
+    color: var(--cyan);
+}
+
+.etherium {
+    display: block;
+    margin: 0;
+    width: 300px;
+    color: var(--soft_blue);
+    position: relative;
+    left: 20px;
+    top: 0px;
+    font-size: 18px;
+}
+
+.info {
+    display: flex;
+}
+
+.eth-img {
+    position: relative;
+    margin: 0;
+    width: 15px;
+    height: 20px;
+    top: 30px;
+    left: 20px;
+}
+
+
+
+.amount {
+    color: var(--cyan);
+    position: relative;
+    margin: 0;
+    height: 20px;
+    top: 30px;
+    left: 25px;
+}
+
+.clock-img {
+    width: 15px;
+    height: 15px;
+    display: block;
+    margin-left: auto;
+    position: relative;
+    top: 34px;
+    right: 5px;
+
+}
+
+.deadline {
+    position: relative;
+    top: 17px;
+    margin-right: 25px;
+    left: 0px;
+    color: var(--soft_blue);
+    font-size: 15px;
+}
+
+hr {
+    border-color: var(--soft_blue);
+    position: relative;
+    width: 300px;
+    top: 15px;
+}
+
+footer {
+    position: relative;
+    top: 10px;
+    margin: 0 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.avatar {
+    position: relative;
+    bottom: px;
+    width: 35px;
+    height: 35px;
+
+}
+
+.owner {
+    margin-left: 15px;
+    color: var(--soft_blue);
+    font-size: 18px
+}
+
+strong {
+    color: var(--white);
+}
+
+strong:hover {
+    color: var(--cyan);
+    cursor: pointer;
+}
