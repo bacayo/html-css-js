@@ -12,10 +12,6 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ### The challenge
 
@@ -30,7 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: (https://htmlpreview.github.io/?https://github.com/bacayo/html-css-js/blob/master/nft-preview-card-component-main/index.html)
+- Solution URL: [Github link](https://github.com/bacayo/html-css-js/tree/master/nft-preview-card-component-main)
+- Live Site URL: [Live version](https://html-css-js-omega.vercel.app/)
 
 ## My process
 
