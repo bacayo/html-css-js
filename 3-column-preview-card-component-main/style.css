@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+
+:root {
+  --lexand_deca: "Lexend Deca", sans-serif;
+  --big_shoulders_display: "Big Shoulders Display", cursive;
+
+  /*colors*/
+  --bright_orange: hsl(31, 77%, 52%);
+  --dark_cyan: hsl(184, 100%, 22%);
+  --very_dark_cyan: hsl(179, 100%, 13%);
+
+  /* paragraphs */
+  --transparent_white: hsla(0, 0%, 100%, 0.75);
+  /* bg headings, buttonns */
+  --very_light_gray: hsl(0, 0%, 95%);
+}
+
+/* body copy font size 15px */
+html,
+body {
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+}
+.card {
+  margin: auto;
+  display: flex;
+  width: 50%;
+  height: 50%;
+}
+#col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-family: var(--big_shoulders_display);
+}
+
+section .icon img {
+  position: relative;
+  /* left: 40px */
+  left: 13%;
+  max-width: 20%;
+  min-height: 100%;
+  top: 60%;
+}
+
+.card section h1 {
+  position: relative;
+  left: 13%;
+  bottom: 5%;
+  font-size: 40px;
+  color: var(--very_light_gray);
+  text-transform: uppercase;
+}
+.card section p {
+  width: 60%;
+  position: relative;
+  left: 13%;
+  bottom: 15%;
+  line-height: 25px;
+  color: var(--transparent_white);
+  font-size: 15px;
+  font-family: var(--lexand_deca);
+  text-align: left;
+}
+.card section button {
+  position: relative;
+  border: none;
+  border-radius: 30px;
+  width: 40%;
+  min-width: 40%;
+  padding: 17px;
+  left: 13%;
+  background-color: var(--very_light_gray);
+  font-size: 15px;
+  font-family: var(--lexand_deca);
+  bottom: 5%;
+}
+.card section button:hover {
+  cursor: pointer;
+}
+.card .left-col button {
+  color: var(--bright_orange);
+}
+.card .mid-col button {
+  color: var(--dark_cyan);
+}
+.card .right-col button {
+  color: var(--very_dark_cyan);
+}
+.card .left-col {
+  background-color: var(--bright_orange);
+  border-radius: 10px 0 0 10px;
+}
+.card .mid-col {
+  background-color: var(--dark_cyan);
+}
+.card .right-col {
+  background-color: var(--very_dark_cyan);
+  border-radius: 0 10px 10px 0;
+}
+
+@media screen and (max-width: 1100px) {
+  .card {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .card .left-col {
+    border-radius: 10px 10px 0 0;
+  }
+  .card .right-col {
+    border-radius: 0 0 10px 10px;
+  }
+
+  section .icon img {
+    top: 60%;
+  }
+
+  .card section h1 {
+    top: 3%;
+  }
+  .card section p {
+    bottom: 25px;
+  }
+  .card section button {
+    width: 60%;
+    padding: 13px;
+  }
+}
