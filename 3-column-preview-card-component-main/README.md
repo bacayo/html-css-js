@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github](https://your-solution-url.com)
-- Live Site URL: [Live site](https://your-live-site-url.com)
+- Solution URL: [Github](https://github.com/bacayo/html-css-js/tree/master/3-column-preview-card-component-main)
+- Live Site URL: [Live site](https://column-zeta.vercel.app/)
 
 ## My process
 
